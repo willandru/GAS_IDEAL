@@ -82,7 +82,7 @@
 
 En el presente informe de laboratorio se pretende analizar el comportamiento de un gas ideal, teniendo en cuenta su ecuación de estado y los diferentes procesos que lo conforman. Para esto se hizo uso del simulador PHET el cual nos permitió trabajar con un gas ideal y sus diferentes propiedades, para así estudiar las variables de presión, volumen y temperatura en cuatro casos diferentes: el primero con un volumen constante, el segundo con temperatura constante, el tercero con presión constante mostrado en función de la temperatura y otra en función del volumen, y como cuarto caso se encontraban todos los factores variables realizando cambios en el tamaño del recipiente. Finalmente, se realizó una recolección de los datos obtenidos para cada uno de los casos, con el fin de graficarlos y determinar el comportamiento de estos.  
 
-\section{Introduction}
+\section{Introducción}
 	
 	Se define como gas ideal, aquel donde todas las colisiones entre átomos o moléculas son perfectamente elásticas, y en el que no hay fuerzas atractivas intermoleculares. En tales gases toda la energía interna está en forma de energía cinética y cualquier cambio en la energía interna va acompañada de un cambio en la temperatura. Además, estos se caracterizan por tres variables de estado: la presión absoluta (P), el volumen (V), y la temperatura absoluta (T).  \textbf{[1]}
 	
@@ -176,7 +176,7 @@ Es un proceso termodinámico que ocurre a presión constante. La Primera Ley de 
 \section{Objetivos}
 
 	\begin{enumerate}
-		\item Comprobar las leyes de los gases 
+		\item Comprobar las leyes de los gases.
 		\item Entender los diferentes procesos con el gas ideal.
 		\item Manejar la ecuación de estado del gas ideal en sus diferentes formas.
 		\item Reconocer que el aire en el rango de la temperatura y de presiones trabajadas se comporta como un gas ideal.
@@ -231,7 +231,7 @@ En este tenemos que seleccionar a la presión como una constante, determinar el 
 	
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%%RESULTADOS
-\section{Resultados} 
+\section{Resultados y Análisis} 
 
 \subsection{Experimento 1: VOLUMEN CONSTANTE}
 
@@ -240,17 +240,34 @@ La ley de Gay Lussac establece que, para un volumen constante de un gas ideal, s
 \begin{figure}[!h]
 				\center
 				\includegraphics[width=8cm]{img/volcte1.jpg}
-				\caption{----}
+				\caption{Datos recolectados por distintos integrantes del grupo en diferentes colores}
 				\label{f13}
 	\end{figure}
 	\begin{figure}[!h]
 				\center
 				\includegraphics[width=8cm]{img/volcte2.jpg}
-				\caption{----}
-				\label{f13}
+				\caption{Datos extrapolados para observar el comportamiento de la presión en la temperatura de 0 absoluto}
+				\label{f14}
 	\end{figure}
 
+Los datos de un integrante fueron repetidos 3 veces para calcular el error absoluto y relativo que se obtenía al medir la presión, ya que el manómetro no presentaba consistencia o equilibrio en la medición, sino que otorgaba una medida que variaba bruscamente en cierto rango. Los datos medidos se muestran a continuación, los cuales representan los puntos rojos graficados en la imagen anterior (\ref{f13} y \ref{f14})
+\begin{figure}[!h]
+				\center
+				\includegraphics[width=8cm]{img/t1.png}
+				\caption{Datos de las repeticiones realizadas para el experimento a volumen constante. La temperatura esta en Kelvin y la presión en Pascales.}
+				\label{f15}
+	\end{figure}
+Para estos datos a volumen constante se tomo el promedio, la desviación estándar y se calcularon los respectivos errores, los cuales se muestran a continuación.
+\begin{figure}[!h]
+				\center
+				\includegraphics[width=8cm]{img/t2.png}
+				\caption{Los valores calculados del promedio de la presión (Pa), la desviacion estandar, el error absoluto y relativo \% }
+				\label{f16}
+	\end{figure}
+	
+Se puede observar entonces, que si bien el error porcentual obtenido es muy pequeño si existió. Esto, como se menciono debido a que para una temperatura establecida, la presión oscilaba entre diferentes valores al rededor de un punto, por lo que en cada repetición, el valor medido de la presión era relativamente diferente.
 
+Ademas la figura \ref{f14}, muestra que para una presión de 0, la temperatura también es cercana al 0 absoluto. Lo cual fue lo que estábamos esperando del simulador.
 \subsection{Experimento 2: TEMPERATURA CONSTANTE}
 
 La ley de Boyle-Mariotte es una ley de los gases que relaciona el volumen y la presión de una cierta cantidad de gas a temperatura constante. Al realizar la gráfica del Volumen en función de la presión esperamos ver una curva, que represente una isoterma, es decir la relación entre presión y volumen a una temperatura constante.  
@@ -258,8 +275,27 @@ La ley de Boyle-Mariotte es una ley de los gases que relaciona el volumen y la p
 \begin{figure}[!h]
 				\center
 				\includegraphics[width=8cm]{img/temcte.jpg}
-				\caption{----}
-				\label{f14}
+				\caption{Curvas isotermas obtenidas tras graficar los datos del simulador.}
+				\label{f17}
+	\end{figure}
+	
+Como se esperaba, esta curva obtenida en la gráfica \ref{f17} representa una isoterma que se asemeja a la curva encontrada en la literatura. 
+De la misma manera, se midió el error absoluto y relativo en este caso, ya que para los valores de presión medidos, ocurrió lo mismo que en el anterior experimento, el manómetro registraba valores alternantes y no un único valor.
+
+Los datos se muestran a continuación, en unidades del sistema internacional.
+\begin{figure}[!h]
+				\center
+				\includegraphics[width=8cm]{img/t3.png}
+				\caption{Datos de la presión (Pa) en diferentes repeticiones para temperatura constante. El volumen esta en m³.}
+				\label{f18}
+	\end{figure}
+	
+Y los valores del promedio, desviación estándar y respectivos errores se muestran a continuación.
+\begin{figure}[!h]
+				\center
+				\includegraphics[width=8cm]{img/t4.png}
+				\caption{Datos calculados de la desviación estándar y los errores respectivos para las presiones registradas en 3 repeticiones a temperatura constante.}
+				\label{f19}
 	\end{figure}
 
 \subsection{Experimento 3: PRESIÓN CONSTANTE }
@@ -271,30 +307,52 @@ Hay dos formas de mantener la presión constante en este sistema. La primera es 
 \begin{figure}[!h]
 				\center
 				\includegraphics[width=8cm]{img/precte1.jpg}
-				\caption{----}
-				\label{f15}
+				\caption{Manteniendo la presión constante, se varía el volumen y se registra la temperatura}
+				\label{f20}
 	\end{figure}
 	
 	La segunda forma es variar la temperatura del gas para que el volumen responda de forma proporcional, con el fin de mantener la presión constante.  
 \begin{figure}[!h]
 				\center
 				\includegraphics[width=8cm]{img/precte2.jpg}
-				\caption{----}
-				\label{f16}
+				\caption{Manteniendo la presión constante, se varía la temperatura y se registra el volumen}
+				\label{f21}
 	\end{figure}
+	
+Primero, debemos decir que la gráfica NO fue la esperada, ya que el comportamiento de el volumen en función de la temperatura según el simulador, muestra un comportamiento cuadrático, si bien es directamente proporcional, el comportamiento esperado era lineal. Es por esto que se decidido repetir el experimento y se muestra en las gráficas \ref{f20} y \ref{f21} varias curvas, las cuales tuvieron valores diferentes bajo las mismas condiciones y muestran su comportamiento no lineal.
+
+Se repitió el experimento el día de hoy y los datos fueron diferentes a los registrados hace 8 días con el simulador. Esto se debe a que el simulador cambio y ahora la temperatura y presión mínima que soportaba el sistema eran diferentes. Sin embargo, se volvió a evidenciar el comportamiento no lineal.
+
+Por esto podemos decir que el simulador vario en su configuración y por eso no fue posible replicar el experimento, sin emabrgo el comportamiento no lineal también debe ser un error del simulador, el cual no está teniendo en cuenta la relación lineal entre estas dos variables de estado.
+
+Por otro lado, los errores no fueron tenidos en cuenta en este experimento, debido a que no pudimos replicar los datos obtenidos anteriormente y no eran concisos entre si.
+
+Ademas en el caso en que se variaba la temperatura y se media el volumen, en todas las repeticiones se obtuvieron los mismos datos, por lo que el error absoluto y relativo porcentual en este caso era de 0.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%RESULTADOS
 
-\section{Análisis de resultados}
+\section{Discusión}
+
+El laboratorio fue llevado a cabo en un simulador virtual, que consistía de un sistema con un gas ideal en su interior. Realizamos 3 experimentos diferentes donde buscábamos replicar los resultados y experimentos realizados por Boyle, Gay Lussac y Charles a cerca de los gases ideales, donde mostraban la relación de las variables de estado P, V y T analizando dos variables cuando la otra es constante.
 
 
+Los experimentos fueron repetidos 3 veces cada uno con el fin de
+medir el error que se obtenía por parte del simulador. Cuando se midió la presión o la temperatura, los datos eran alternantes entre sí, pero cunado se medía el volumen los datos eran siempre los mismos, esto influyo al momento de reportar las tablas de errores en los resultados.
 
+
+Se observo que el simulador tenia parámetros diferentes 8 días después de tomados los datos, lo cual no permitió que realizáramos una replica del 3 experimento, el cual fue el que presentó complicaciones en este laboratorio. A pesar de medir las variables indicadas, seguir las instrucciones y repetir el experimento, siempre se obtuvo un comportamiento no lineal entre el volumen y la temperatura a presión constante, lo cual no concuerda con lo aprendido en clase u observado en la literatura. Como se mencionó, esperábamos un comportamiento lineal. 
+
+En general, los datos recolectados fueron interesantes ya que como se observa en la figura \ref{13}, una vez graficados los datos de todos los individuos del grupo se debia ver que estos fueran coherentes entre sí. Si nos fijamos en esta imagen podemos observar que algunos datos generaban cierto ruido, o estaban muy concentrados en un punto. Debido a esto fue necesario un pre procesamiento de estos datos, lo cual si bien fue una tarea sencilla que se realizo manualmente y sin ningún criterio matemáticamente estricto donde eliminamos ciertos datos y dejamos otros, nos permitió tener una idea de los retos a los que se enfrentan los profesionales de datos cuando manejan problemas reales. 
 \section{Conclusión}
 	
 	\begin{enumerate}[label=(\roman*)]
 		\item Se pudo determinar la relación que existe entre las variaciones y constantes realizada entre la presión, temperatura o volumen, con respecto a las tres leyes de los gases correspondientes a la ley de Gay Lussac, ley de Boyle-Marriotte y ley de Charles.  
-		\item  Calculamos la capacidad calorífica de un calorímetro utilizando la técnica de ponerlo en contacto con un elemento de temperatura y masa conocidas para determinar la temperatura de equilibrio de este sistema. 
-		\item  Sin importar cuanto calor se le trasmita a un sistema durante un cambio de fase, este no elevará su temperatura, utilizara toda la energía para transformar el elemento del sistema de una fase a otra.
-		\item Dos cuerpos en contacto, después de un tiempo, tendrán la misma temperatura.
+		\item      Al implementar la ley de Charles con la relación de volumen-temperatura, mantenido constante la presión de las dos formas posibles, podemos determinar que existe un comportamiento de una recta mostrando una correlación positiva entre las variables.  
+		\item      Del mismo modo sucede en la relación presión-temperatura a un volumen constante, mostrada en la ley de Gay Lussac donde podemos determinar que su correlación es positiva y con un comportamiento proporcional. 
+		\item     Con el comportamiento de las variables presión (Pa) -temperatura (K) podemos determinar que al tener alguna de las dos variables en cero, la otra muestra un mismo valor.  
+		\item     Los procesos termodinámicos de los gases ideales también se relacionan con las leyes de los gases ideales, como se muestra en la ley de Boyle-Mariotte en conexión con un proceso isoterma debido a su relación volumen-presión a una temperatura constante.  
+		
+		\item A una temperatura constante hay un comportamiento de curva con correlación negativa entre las variables presión-volumen.
+		\item     La combinación de las leyes de Charles y la de Boyle describe el comportamiento de un gas ideal. 
 	\end{enumerate}
 
 \appendices
